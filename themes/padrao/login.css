@@ -1,0 +1,109 @@
+#wp-submit{
+  background: #f58220;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    border-bottom: 2px solid #DE7114;
+    padding: 0px 15px 5px;
+    text-shadow: none;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+    transition: all ease .2s;
+}
+
+#change-street{
+    padding: 10px;
+    border-radius: 5px;
+    background: #ff8100;
+    border: none;
+    margin: 10px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#wp-submit:hover{
+    box-shadow: 0 4px 6px 1px rgba(0, 0, 0, 0.3);
+}
+
+#map{
+  height: 400px;
+}
+
+.div-imagem img{
+  width: 150px;
+  height: auto;
+}
+
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+.local,.conteudo{
+  width: 100%;
+    margin-top: 10px;
+    border: 1px solid transparent !important;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3) !important;  
+}
+
+.conteudo{
+  height: 130px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+.login #login_error, .login .message{
+    border-left: 4px solid #f58220;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu{
+  background: #ff6915 !important;
+}
+
+.postbox {
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #ffffff;
+    border-bottom: 2px solid #e7e7e7;
+    border-radius: 5px;
+}

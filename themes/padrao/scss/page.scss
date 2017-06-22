@@ -1,0 +1,18 @@
+.title{
+	margin: 0;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.wrapper{
+	background: $principal;
+	color: white;
+	padding: 30px 0;
+	margin-bottom: 20px;
+}
+
+#page{
+	font-size: 1.1rem;	
+	font-weight: 300;
+	line-height: 2;
+}

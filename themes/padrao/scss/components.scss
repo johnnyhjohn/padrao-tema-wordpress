@@ -1,0 +1,68 @@
+.btn-veja-mais{
+	border:2px solid transparent;
+	display:inline-block;
+	color:#fff;
+	background-color:$principal;
+	transition:ease all .3s;
+	&:hover{
+		border-color:$principal;
+		color: $principal;
+		background-color:transparent;
+	}
+}
+.btn-enviar{
+	border:2px solid $principal;
+	display:inline-block;
+	color:#fff;
+	background-color:$principal;
+	transition:ease all .3s;
+	&:hover{
+		border-color:#fff;
+		color: #fff;
+		background-color:transparent;
+	}
+}
+.btn100{
+	width: 100%;
+	display: block;
+}
+.btn-margin{
+	display: block;
+	width: 480px;
+	max-width: 100%;
+	margin: auto;
+}
+.obrigatorio{
+	margin: -10px 0 10px;
+    color: #f73434;
+    font-weight: 700;
+}
+.mensagem{
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 3px;
+	&.sucesso{
+	    background: #1f8e1f;
+	}
+	&.erro{
+	    background: #ce2d2d;
+	}
+}
+
+.midias{
+	a{
+		color: white;
+	}
+	li{
+	    float: left;
+	    display: block;
+	    margin: 13px 8px;
+	    background: $icon-bg;
+	    width: 30px;
+	    height: 30px;
+	    text-align: center;
+	    color: white;
+	    border-radius: 40px;
+	    padding: 7px;
+	}
+}

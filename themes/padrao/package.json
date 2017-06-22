@@ -1,0 +1,20 @@
+{
+  "name": "padrao",
+  "version": "1.0.0",
+  "description": "website finer",
+  "main": "custom-js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "finer",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass" : "*",
+    "gulp-csso" : "*",
+    "gulp-concat" : "*",
+    "gulp-uglify" : "*",
+    "babel-preset-env": "^1.4.0",
+    "gulp-babel": "^6.1.2"
+  }
+}

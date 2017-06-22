@@ -1,0 +1,92 @@
+/* 
+Theme Name: Padrão
+Description: Tema desenvolvido por Finer Soluções Web
+Version: 1.0
+Author: Finer Solucoes Web
+Website: www.finer.com.br
+Responsible: Daniel Domingues
+*/
+
+//-------------//
+//  VARIAVEIS  //
+//-------------//
+
+$principal      : #ff7707;
+$secundaria     : #8c8c8c;
+$overlay        : rgba(0, 173, 32, 0.6);
+$title-color    : #121212;
+$bg-gray        : #262626;
+$bg-green       : #8ec841;
+$bg-input       : #535353;
+$icon-bg        : #c7c7c7;
+
+$fonte        : "Roboto";
+
+//--------------//
+// Medias       //
+//--------------//
+$medium_screen  : 1024px;
+$small_screen   : 991px;
+$tablet         : 768px;
+$big_phone      : 767px;
+$medium_phone   : 540px;
+$phone          : 380px;
+//----------------//
+// DEPENDENCIAS   //
+//----------------//
+
+@import 'bower_components/font-awesome/css/font-awesome.min.css';
+@import 'bower_components/bootstrap/dist/css/bootstrap.min.css';
+// @import 'bower_components/lightbox2/src/css/lightbox.css';
+@import 'bower_components/slick-carousel/slick/slick.scss';
+@import 'bower_components/slick-carousel/slick/slick-theme.scss';
+@import 'scss/mixins.scss';
+
+//--------------//
+// Includes     //
+//--------------//
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@include font-face("weather", fonts/clima, 500, ttf);
+
+//-------------------//
+// Partes            //
+//-------------------//
+
+@import 'scss/header';
+@import 'scss/components';
+@import 'scss/index';
+@import 'scss/page';
+@import 'scss/single';
+@import 'scss/footer';
+
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: $fonte !important;
+    overflow-x: hidden;
+    a{
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    .img-responsive{
+    	width: auto;
+        margin: auto;
+    	height: auto;
+    }
+    .sm-hidden{
+        @media(max-width: $small_screen){
+            display: none;
+        }
+    }
+}
+html{
+    font-size: 14px;
+}
+.ready{
+    transition: ease all .3s;
+    opacity: 0;
+    visibility: hidden;
+}

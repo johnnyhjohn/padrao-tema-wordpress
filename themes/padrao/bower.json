@@ -1,0 +1,25 @@
+{
+  "name": "Finer Web",
+  "authors": [
+    "Finer"
+  ],
+  "description": "Website finer",
+  "main": "main.js",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "lightbox2": "lightbox#~2.8.2",
+    "slick-carousel": "^1.6.0",
+    "font-awesome": "~4.6.3",
+    "jquery-ui": "~1.12.0"
+  }
+}
